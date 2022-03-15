@@ -1,0 +1,29 @@
+{
+    "identifier": "com.pa.assimilation-expansion-server",
+    "display_name": "Assimilation Expansion",
+    "description": "*SOON(tm)*",
+    "author": "BOIYOUSAYWAHT, Lenetis",
+    "signature": "not yet implemented",
+    "forum": "(forum link here)",
+    "priority": 100,
+    "icon": "(icon link here (directly to the .png file))",
+    "titansOnly": true,
+	"scenes": {
+        "shared_build": [
+            "coui://ui/mods/com.pa.assimilation/shared_build.js"
+        ],
+        "icon_atlas": [
+            "coui://ui/mods/com.pa.assimilation/icon_atlas.js"
+        ]
+    },
+    "category": [
+		"titans",
+		"units",
+		"faction",
+		"gameplay"
+    ],
+    "context": "server",
+    "date": "2021-12-24",
+    "build": "115958",
+    "version": "0.2"
+}
