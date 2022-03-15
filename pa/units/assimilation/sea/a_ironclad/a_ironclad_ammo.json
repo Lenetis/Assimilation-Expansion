@@ -1,0 +1,14 @@
+{
+	"ammo_type": "AMMO_Beam",
+	"damage": 200,
+	"splash_damage": 0,
+	"splash_radius": 0,
+	"splash_damages_allies": false,
+	"fx_beam_spec": "/pa/units/air/solar_drone/solar_drone_ammo_beam.pfx",
+	"collision_check": "target",
+	"recon": {
+		"observable": {
+			"ignore_radar": true
+		}
+	}
+}

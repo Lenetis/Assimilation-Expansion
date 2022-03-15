@@ -1,0 +1,128 @@
+{
+	"base_spec": "/pa/units/sea/base_ship/base_ship.json",
+	"display_name": "Siren",
+	"description": "!LOC:Radar Mirage boat - Radar stealth. Detects mines. Use alt-fire to summon a group of hologram ships which appear on enemy radar and probably disrupt enemy targeting systems or something idk",
+	"max_health": 200,
+	"build_metal_cost": 300,
+	"spawn_layers": "WL_WaterSurface",
+	"mesh_bounds": [
+		6,
+		15,
+		8
+	],
+	"unit_types": [
+		"UNITTYPE_Naval",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Scout",
+		"UNITTYPE_Basic",
+		"UNITTYPE_FactoryBuild",
+		"UNITTYPE_WaterHover",
+		"UNITTYPE_Custom3"
+	],
+	"command_caps": [
+		"ORDER_Move",
+		"ORDER_Patrol",
+		"ORDER_Assist",
+		"ORDER_FireSecondaryWeapon"
+	],
+	"consumption": {
+		"energy": 100
+	},
+	"guard_layer": "WL_AnySurface",
+	"navigation": {
+		"type": "water-hover",
+		"acceleration": 100,
+		"brake": 100,
+		"move_speed": 16,
+		"turn_speed": 270,
+		"turn_accel": 135,
+		"park_stamp_type": "sphere",
+		"park_stamp_cost": 10
+	},
+	"physics": {
+		"shape": "sphere",
+		"radius": 3
+	},
+	"recon": {
+		"observable": {
+            "layer": "underwater",
+            "ignore_radar": true
+        },
+		"observer": {
+			"items": [
+				{
+					"layer": "surface_and_air",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 200
+				},
+				{
+					"layer": "underwater",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 200
+				},
+				{
+					"layer": "mine",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 200
+				},
+				{
+					"layer": "surface_and_air",
+					"channel": "radar",
+					"shape": "capsule",
+					"radius": 320,
+					"uses_energy": true
+				},
+				{
+					"layer": "underwater",
+					"channel": "radar",
+					"shape": "capsule",
+					"radius": 320,
+					"uses_energy": true
+				}
+			]
+		}
+	},
+	"model": {
+		"filename": "/pa/units/assimilation/sea/a_siren/a_siren.papa",
+		"animtree": "/pa/anim/anim_trees/frigate_anim_tree.json"
+	},
+	"tools": [
+		{
+			"spec_id": "/pa/units/assimilation/sea/a_siren/a_siren_hologram_weapon.json",
+			"aim_bone": "bone_root"
+		}
+	],
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/sea"
+		},
+		"died": {
+			"audio_cue": "/SE/Death/Sea_large",
+			"effect_spec": "/pa/effects/specs/default_explosion_naval.pfx",
+			"effect_scale": 0.7
+		}
+	},
+	"audio": {
+		"loops": {
+			"move": {
+				"cue": "/SE/Movement/sea/frigate_loop",
+				"flag": "vel_changed",
+				"should_start_func": "is_moving",
+				"should_stop_func": "is_not_moving"
+			}
+		}
+	},
+	"fx_offsets": [
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/sea/frigate/frigate_wake.pfx"
+		}
+	],
+	"selection_icon": {
+		"diameter": 23.0
+	},
+	"TEMP_texelinfo": 19.1546
+}

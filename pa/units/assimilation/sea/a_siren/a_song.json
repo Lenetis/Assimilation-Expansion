@@ -1,0 +1,130 @@
+{
+	"base_spec": "/pa/units/sea/base_ship/base_ship.json",
+	"display_name": "Song",
+	"description": "!LOC:Song Hologram Ship - Doesn't really exist.",
+	"max_health": 100,
+	"build_metal_cost": 0,
+	"spawn_layers": "WL_WaterSurface",
+	"mesh_bounds": [
+		4,
+		10,
+		5
+	],
+	"attachable": {
+		"offsets": {
+			"root": [
+				0,
+				0,
+				0
+			],
+			"head": [
+				0,
+				0,
+				4
+			]
+		}
+	},
+	"unit_types": [
+		"UNITTYPE_Naval",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Basic",
+		"UNITTYPE_Scout",
+		"UNITTYPE_WaterHover",
+		"UNITTYPE_NoBuild"
+	],
+	"command_caps": [
+		"ORDER_Move",
+		"ORDER_Patrol",
+		"ORDER_Assist"
+	],
+	"navigation": {
+		"type": "water-hover",
+		"acceleration": 100,
+		"brake": 100,
+		"move_speed": 16,
+		"turn_speed": 270,
+		"turn_accel": 135,
+		"park_stamp_type": "sphere",
+		"park_stamp_cost": 10
+	},
+	"physics": {
+		"shape": "sphere",
+		"radius": 4,
+		"allow_pushing": true
+	},
+	"transportable": {
+		"size": 1
+	},
+	"recon": {
+		"observer": {
+			"items": [
+				{
+					"layer": "surface_and_air",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 100
+				},
+				{
+					"layer": "underwater",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 100
+				}
+			]
+		}
+	},
+	"model": {
+		"filename": "/pa/units/assimilation/sea/a_siren/a_song.papa"
+	},
+	"tools": [
+		{
+			"spec_id": "/pa/units/assimilation/sea/a_siren/a_song_self_destruct_tool_weapon.json",
+			"aim_bone": "bone_root"
+		}
+	],
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/radar"
+		},
+		"died": {
+			"audio_cue": "/SE/Build_Complete/radar",
+			"effect_spec": "/pa/units/assimilation/sea/a_siren/a_song_dead.pfx",
+			"effect_scale": 0.8
+		}
+	},
+	"audio": {
+		"loops": {
+			"move": {
+				"cue": "/SE/Movement/sea/Fab_ship_loop",
+				"flag": "vel_changed",
+				"should_start_func": "is_moving",
+				"should_stop_func": "is_not_moving"
+			}
+		}
+	},
+	"fx_offsets": [
+		{
+			"type": "idle",
+			"filename": "/pa/units/assimilation/sea/a_siren/a_song_hologram.pfx",
+			"bone": "bone_root",
+			"offset": [
+				0,
+				0,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/sea/frigate/frigate_wake.pfx"
+		}
+	],
+	"selection_icon": {
+		"diameter": 21.0
+	},
+	"TEMP_texelinfo": 7.50603
+}

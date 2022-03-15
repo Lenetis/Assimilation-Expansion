@@ -1,0 +1,33 @@
+{
+	"base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
+	"ammo_id": "/pa/units/assimilation/sea/a_siren/a_siren_hologram_ammo.json",
+	"ammo_source": "energy",
+	"ammo_demand": 15,
+	"ammo_capacity": 1000,
+	"ammo_per_shot": 250,
+	"start_fully_charged": true,
+	"rate_of_fire": 1.5,
+	"max_range": 250,
+	
+	"yaw_rate": 3600,
+	"pitch_rate": 3600,
+	
+	"yaw_range": 360,
+	"pitch_range": 0,
+	
+	"firing_arc_yaw": 2,
+	"firing_arc_pitch": 180,
+	
+	"target_layers": [
+		"WL_LandHorizontal",
+		"WL_WaterSurface",
+		"WL_Air",
+		"WL_Underwater",
+		"WL_SeaFloor"
+	],
+	"auto_attack": false,
+	"manual_attack": true,
+	"auto_task_type": "none",
+	"firing_standard_deviation": 30,
+	"carpet_fire": true
+}
