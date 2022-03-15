@@ -1,0 +1,47 @@
+{
+	"units": [
+		"/pa/units/assimilation/commanders/a_base/a_base.json",
+		"/pa/units/assimilation/commanders/a_not_armalisk/a_not_armalisk.json",
+		
+		"/pa/units/assimilation/air/a_air_factory/a_air_factory.json",
+		"/pa/units/assimilation/air/a_air_factory_hyper/a_air_factory_hyper.json",
+		
+		"/pa/units/assimilation/air/a_fabrication_aircraft/a_fabrication_aircraft.json",
+		"/pa/units/assimilation/air/a_stake/a_stake.json",
+		"/pa/units/assimilation/air/a_stake/boosted/a_stake_boosted.json",
+		"/pa/units/assimilation/air/a_aftershock/a_aftershock.json",
+		"/pa/units/assimilation/air/a_blazer/a_blazer.json",
+		"/pa/units/assimilation/air/a_shrike/a_shrike.json",
+		"/pa/units/assimilation/air/a_swallow/a_swallow.json",
+		"/pa/units/assimilation/air/a_spitter/a_spitter.json",
+		
+		"/pa/units/assimilation/sea/a_naval_factory/a_naval_factory.json",
+		"/pa/units/assimilation/sea/a_naval_factory_hyper/a_naval_factory_hyper.json",
+		
+		"/pa/units/assimilation/sea/a_siren/a_siren.json",
+		"/pa/units/assimilation/sea/a_siren/a_song.json",
+		"/pa/units/assimilation/sea/a_guppy/a_guppy.json",
+		"/pa/units/assimilation/sea/a_ironclad/a_ironclad.json",
+		"/pa/units/assimilation/sea/a_mortar/a_mortar.json",
+		"/pa/units/assimilation/sea/a_croc/a_croc.json",
+		"/pa/units/assimilation/sea/a_trident/a_trident.json",
+		"/pa/units/assimilation/sea/a_fabrication_ship/a_fabrication_ship.json",
+		
+		"/pa/units/assimilation/land/a_energy_plant/a_energy_plant.json",
+		"/pa/units/assimilation/land/a_energy_plant/overcharged/a_energy_plant_overcharged.json",
+		"/pa/units/assimilation/land/a_energy_storage/a_energy_storage.json",
+		"/pa/units/assimilation/land/a_metal_extractor/a_metal_extractor.json",
+		"/pa/units/assimilation/land/a_metal_storage/a_metal_storage.json",
+
+		"/pa/units/assimilation/land/a_arc_cannon/a_arc_cannon.json",
+		"/pa/units/assimilation/land/a_shaker_cannon/a_shaker_cannon.json",
+		"/pa/units/assimilation/land/a_sweeper/a_sweeper.json",
+		"/pa/units/assimilation/land/a_hail/a_hail.json",
+		"/pa/units/assimilation/land/a_fabrication_vehicle/a_fabrication_vehicle.json",
+
+		"/pa/units/assimilation/land/a_vehicle_factory/a_vehicle_factory.json",
+		"/pa/units/assimilation/land/a_vehicle_factory_hyper/a_vehicle_factory_hyper.json"
+		
+	]
+	
+}
