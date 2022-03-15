@@ -1,0 +1,18 @@
+{
+	"base_spec": "/pa/tools/base_fighter_turret/base_fighter_turret.json",
+	"ammo_id": "/pa/units/assimilation/air/a_aftershock/a_aftershock_ammo.json",
+	"auto_attack": true,
+	"rate_of_fire": 1.0,
+	"max_range": 75,
+	"spread_fire": true,
+	"idle_aim_delay": 0,
+	"firing_arc_yaw": 360,
+	"firing_arc_pitch": 90,
+	"pitch_range": 90,
+	"pitch_rate": 720,
+	"yaw_range": 360,
+	"yaw_rate": 720,
+	"target_layers": [
+		"WL_Air"
+	]
+}

@@ -1,0 +1,121 @@
+{
+	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+	"display_name": "Stake",
+	"description": "!LOC:Boosting Fighter - Fast and fragile. High damage. Only attacks air targets. Use alt fire to boost and dodge enemy projectiles.",
+	"max_health": 10,
+	"build_metal_cost": 180,
+	"unit_types": [
+		"UNITTYPE_Fighter",
+		"UNITTYPE_Air",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Offense",
+		"UNITTYPE_Basic",
+		"UNITTYPE_FactoryBuild",
+		"UNITTYPE_Custom3"
+	],
+	"command_caps": [
+		"ORDER_Move",
+		"ORDER_Patrol",
+		"ORDER_Attack",
+		"ORDER_Assist",
+		"ORDER_FireSecondaryWeapon"
+	],
+	"guard_layer": "WL_Air",
+	"navigation": {
+		"type": "air",
+		"acceleration": 180,
+		"brake": 30,
+		"move_speed": 100,
+		"turn_speed": 270,
+		"aggressive_distance": 50.0,
+		"bank_factor": 10,
+		"vertical_speed": 50,
+		"hover_time": -1.0
+	},
+	"physics": {
+		"radius": 6,
+		"gravity_scalar": 1,
+		"air_friction": 0.9
+	},
+	"recon": {
+		"observer": {
+			"items": [
+				{
+					"layer": "surface_and_air",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 150
+				},
+				{
+					"layer": "underwater",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 150
+				}
+			]
+		}
+	},
+	"model": {
+		"filename": "/pa/units/assimilation/air/a_stake/a_stake.papa",
+		"arrows": 5
+	},
+	"tools": [
+		{
+			"spec_id": "/pa/units/assimilation/air/a_stake/a_stake_tool_weapon.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root"
+		},
+		{
+			"spec_id": "/pa/units/assimilation/air/a_stake/boost_tool_weapon.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root",
+			"secondary_weapon": true
+		}
+	],
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/air"
+		},
+		"fired": {
+			"audio_cue": "/SE/Weapons/air/fighter_fire"
+		},
+		"died": {
+			"audio_cue": "/SE/Death/Air",
+			"effect_spec": "/pa/units/air/base_flyer/base_flyer_death.pfx",
+			"effect_scale": 0.85
+		}
+	},
+	"audio": {
+		"loops": {
+			"move": {
+				"cue": "/SE/Movement/air/air_fighter_loop",
+				"flag": "vel_changed",
+				"should_start_func": "is_moving_laterally",
+				"should_stop_func": "is_not_moving"
+			}
+		},
+		"selection_response": {
+			"cue": "/SE/Selection/air/fighter"
+		}
+	},
+	"fx_offsets": [
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+			"offset": [
+				0.0,
+				1.598,
+				4.424
+			]
+		}
+	],
+	"selection_icon": {
+		"diameter": 16.0
+	},
+	"TEMP_texelinfo": 6.1803,
+	"mesh_bounds": [
+		9,
+		6.5,
+		3.1
+	]
+}

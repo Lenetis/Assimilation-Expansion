@@ -1,0 +1,116 @@
+{
+	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+	"display_name": "Shrike",
+	"description": "!LOC:Radar Scout - Fast. Can see mines. Long range radar coverage. Requires Energy. Does not attack.",
+	"max_health": 20,
+	"build_metal_cost": 60,
+	"unit_types": [
+		"UNITTYPE_Scout",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Air",
+		"UNITTYPE_Basic",
+		"UNITTYPE_FactoryBuild",
+		"UNITTYPE_Custom3"
+	],
+	"command_caps": [
+		"ORDER_Move",
+		"ORDER_Patrol",
+		"ORDER_Assist"
+	],
+	"consumption": {
+		"energy": 100
+	},
+	"energy_efficiency_requirement": 0.9,
+	"navigation": {
+		"type": "air",
+		"acceleration": 110,
+		"brake": 110,
+		"move_speed": 110,
+		"turn_speed": 180,
+		"dodge_radius": 10,
+		"dodge_multiplier": 1.0,
+		"wobble_factor": 0.1,
+		"wobble_speed": 0.2
+	},
+	"physics": {
+		"radius": 6,
+		"gravity_scalar": 1
+	},
+	"recon": {
+		"observer": {
+			"items": [
+				{
+					"layer": "surface_and_air",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 170
+				},
+				{
+					"layer": "underwater",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 170
+				},
+				{
+					"layer": "mine",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 170
+				},
+				{
+					"layer": "surface_and_air",
+					"channel": "radar",
+					"shape": "capsule",
+					"radius": 320,
+					"uses_energy": true
+				},
+				{
+					"layer": "underwater",
+					"channel": "radar",
+					"shape": "capsule",
+					"radius": 320,
+					"uses_energy": true
+				}
+			]
+		}
+	},
+	"model": {
+		"filename": "/pa/units/assimilation/air/a_shrike/a_shrike.papa",
+		"arrows": 5
+	},
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/air"
+		},
+		"fired": {
+			"audio_cue": "/SE/Weapons/air/air_scout_fire"
+		},
+		"died": {
+			"audio_cue": "/SE/Death/Air",
+			"effect_spec": "/pa/units/air/base_flyer/base_flyer_death.pfx",
+			"effect_scale": 0.5
+		}
+	},
+	"audio": {
+		"loops": {
+			"move": {
+				"cue": "/SE/Movement/air/air_scout_loop",
+				"flag": "vel_changed",
+				"should_start_func": "is_moving_laterally",
+				"should_stop_func": "is_not_moving"
+			}
+		},
+		"selection_response": {
+			"cue": "/SE/Selection/air/air"
+		}
+	},
+	"selection_icon": {
+		"diameter": 17.0
+	},
+	"TEMP_texelinfo": 5.39039,
+	"mesh_bounds": [
+		11.5,
+		8,
+		2
+	]
+}

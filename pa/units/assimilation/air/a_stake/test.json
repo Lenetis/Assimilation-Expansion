@@ -1,0 +1,26 @@
+{
+	"base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
+	"ammo_id": "/pa/units/assimilation/air/a_stake/boost_ammo.json",
+	"ammo_source": "time",
+	"ammo_capacity": 5,
+	"ammo_per_shot": 5,
+	"start_fully_charged": true,
+	"rate_of_fire": 2.0,
+	"max_range": 250,
+	"yaw_rate": 180,
+	"pitch_rate": 180,
+	"yaw_range": 0,
+	"pitch_range": 0,
+	"firing_arc_yaw": 15,
+	"firing_arc_pitch": 180,
+	"target_layers": [
+		"WL_LandHorizontal",
+		"WL_WaterSurface",
+		"WL_Air",
+		"WL_Underwater",
+		"WL_SeaFloor"
+	],
+	"auto_attack": false,
+	"manual_attack": true,
+	"auto_task_type": "none"
+}

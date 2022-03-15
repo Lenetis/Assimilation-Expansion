@@ -1,0 +1,33 @@
+{
+	"base_spec": "/pa/units/assimilation/air/a_stake/a_stake.json",
+	"si_name": "a_stake",
+	"unit_types": [
+		"UNITTYPE_Fighter",
+		"UNITTYPE_Air",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Offense",
+		"UNITTYPE_Basic",
+		"UNITTYPE_FactoryBuild",
+		"UNITTYPE_Custom3",
+		"UNITTYPE_NoBuild"
+	],
+	"tools": [
+		{
+			"spec_id": "/pa/units/assimilation/air/a_stake/a_stake_tool_weapon.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root"
+		},
+		{
+			"spec_id": "/pa/units/assimilation/air/a_stake/boost_tool_weapon.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root",
+			"secondary_weapon": true
+		},
+		{
+			"spec_id": "/pa/units/assimilation/air/a_stake/boosted/boost_aoe_tool_weapon.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root",
+			"secondary_weapon": true
+		}
+	]
+}
