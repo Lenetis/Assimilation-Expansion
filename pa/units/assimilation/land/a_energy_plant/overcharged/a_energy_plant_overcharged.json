@@ -1,0 +1,33 @@
+{
+	"base_spec": "/pa/units/assimilation/land/a_energy_plant/a_energy_plant.json",
+	"display_name": "Overcharged Energy Pylon",
+	"description": "!LOC:Basic Economy - Produces energy. BUT NOT FOR LONG",
+	"max_health": 500,
+	"build_metal_cost": 150,
+	"atrophy_rate": 7.5,
+	"atrophy_cool_down": 15.0,
+	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+	"area_build_type": "Line",
+
+	"production": {
+		"energy": 1200
+	},
+	"unit_types": [
+		"UNITTYPE_Structure",
+		"UNITTYPE_EnergyProduction",
+		"UNITTYPE_Basic",
+		"UNITTYPE_CmdBuild",
+		"UNITTYPE_FabBuild",
+		"UNITTYPE_Economy",
+		"UNITTYPE_Custom3",
+		"UNITTYPE_NoBuild"
+	],
+	"command_caps": [],
+	"tools": [
+		{
+			"spec_id": "/pa/units/assimilation/land/a_energy_plant/overcharged/self_destruct_weapon.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root"
+		}
+	]
+}
