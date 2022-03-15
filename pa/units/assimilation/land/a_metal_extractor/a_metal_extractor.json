@@ -56,7 +56,7 @@
 		}
 	],
 	"replaceable_units": [
-		"/pa/units/assimilation/land/a_metal_extractor/a_metal_extractor.json"
+		"/pa/units/assimilation/land/a_metal_extractor_adv/a_metal_extractor_adv.json"
 	],
 	"events": {
 		"build_complete": {
