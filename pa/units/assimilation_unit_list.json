@@ -2,6 +2,7 @@
 	"units": [
 		"/pa/units/assimilation/commanders/a_base/a_base.json",
 		"/pa/units/assimilation/commanders/a_not_armalisk/a_not_armalisk.json",
+		"/pa/units/assimilation/commanders/a_quad_donut_duke/a_quad_donut_duke.json",
 		
 		"/pa/units/assimilation/air/a_air_factory/a_air_factory.json",
 		"/pa/units/assimilation/air/a_air_factory_hyper/a_air_factory_hyper.json",

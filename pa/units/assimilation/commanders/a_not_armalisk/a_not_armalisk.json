@@ -17,7 +17,16 @@
 		}
 	},
 	"model": {
-		"filename": "/pa/units/commanders/quad_armalisk/quad_armalisk.papa"
+		"filename": "/pa/units/commanders/quad_armalisk/quad_armalisk.papa",
+		"animations": {
+            "walk": "/pa/units/commanders/quad_base/quad_base_anim_walk.papa",
+            "idle": "/pa/units/commanders/quad_base/quad_base_anim_idle.papa",
+            "walk_stop": "/pa/units/commanders/quad_base/quad_base_anim_walkStop.papa",
+            "aim_up": "/pa/units/commanders/quad_base/quad_base_anim_aimUp.papa",
+            "aim_down": "/pa/units/commanders/quad_base/quad_base_anim_aimDown.papa"
+        },
+        "animtree": "/pa/anim/anim_trees/commander_quad_anim_tree.json",
+        "walk_speed": 5.0
 	},
 	"headlights": [
 		{

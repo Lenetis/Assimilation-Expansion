@@ -1,5 +1,6 @@
 {
 	"commanders": [
-		"/pa/units/assimilation/commanders/a_not_armalisk/a_not_armalisk.json"
+		"/pa/units/assimilation/commanders/a_not_armalisk/a_not_armalisk.json",
+		"/pa/units/assimilation/commanders/a_quad_donut_duke/a_quad_donut_duke.json"
 	]
 }
