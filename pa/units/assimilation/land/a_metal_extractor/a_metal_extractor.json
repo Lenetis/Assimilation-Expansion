@@ -52,7 +52,7 @@
 			"animations": {
 				"idle": "/pa/units/assimilation/land/a_metal_extractor/a_metal_extractor_anim_work.papa"
 			},
-			"animtree": "/pa/anim/anim_trees/simple_building_anim_tree.json"
+			"animtree": "/pa/anim/anim_trees/a_metal_extractor_anim_tree.json"
 		}
 	],
 	"replaceable_units": [
