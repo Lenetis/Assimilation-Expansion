@@ -92,13 +92,14 @@
 	},
 	"fx_offsets": [
 		{
-			"type": "moving_forward",
-			"filename": "/pa/units/air/fighter/fighter_jets.pfx",
-			"offset": [
-				0,
-				2.9,
-				0.836
-			]
+			"type": "idle",
+            "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+            "bone": "socket_thruster",
+            "offset": [
+                0,
+                0,
+                0
+            ]
 		}
 	],
 	"selection_icon": {

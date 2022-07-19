@@ -21,13 +21,15 @@
 			"spec_id": "/pa/units/assimilation/air/a_stake/boost_tool_weapon.json",
 			"aim_bone": "bone_root",
 			"muzzle_bone": "bone_root",
-			"secondary_weapon": true
+			"secondary_weapon": true,
+			"show_range": false
 		},
 		{
 			"spec_id": "/pa/units/assimilation/air/a_stake/boosted/boost_aoe_tool_weapon.json",
 			"aim_bone": "bone_root",
 			"muzzle_bone": "bone_root",
-			"secondary_weapon": true
+			"secondary_weapon": true,
+			"show_range": false
 		}
 	]
 }

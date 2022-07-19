@@ -2,7 +2,7 @@
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
 	"display_name": "Stake",
 	"description": "!LOC:Boosting Fighter - Fast and fragile. High damage. Only attacks air targets. Use alt fire to boost and dodge enemy projectiles.",
-	"max_health": 10,
+	"max_health": 25,
 	"build_metal_cost": 180,
 	"unit_types": [
 		"UNITTYPE_Fighter",
@@ -69,7 +69,8 @@
 			"spec_id": "/pa/units/assimilation/air/a_stake/boost_tool_weapon.json",
 			"aim_bone": "bone_root",
 			"muzzle_bone": "bone_root",
-			"secondary_weapon": true
+			"secondary_weapon": true,
+			"show_range": false
 		}
 	],
 	"events": {
@@ -101,12 +102,13 @@
 	"fx_offsets": [
 		{
 			"type": "moving_forward",
-			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
-			"offset": [
-				0.0,
-				1.598,
-				4.424
-			]
+            "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+            "bone": "socket_thruster",
+            "offset": [
+                0,
+                0,
+                0
+            ]
 		}
 	],
 	"selection_icon": {

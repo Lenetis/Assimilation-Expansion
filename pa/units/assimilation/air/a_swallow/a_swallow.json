@@ -96,52 +96,92 @@
 		},
 		"animtree": "/pa/anim/anim_trees/transport_anim_tree.json"
 	},
-	"TEMP_texelinfo": 10.4837,
-	"fx_offsaaaaaaaaaaaaaaaaaaaaaets": [
+	"fx_offsets": [
 		{
 			"type": "idle",
 			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
-			"bone": "bone_leftWing",
+			"bone": "socket_rotating_thruster_left_1",
 			"offset": [
 				0,
 				0,
-				-1.686
-			],
-			"orientation": [
-				0,
-				90,
 				0
 			]
 		},
 		{
 			"type": "idle",
 			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
-			"bone": "bone_rightWing",
+			"bone": "socket_rotating_thruster_left_2",
 			"offset": [
 				0,
 				0,
-				-1.686
-			],
-			"orientation": [
+				0
+			]
+		},
+		{
+			"type": "idle",
+			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+			"bone": "socket_rotating_thruster_left_3",
+			"offset": [
 				0,
-				90,
+				0,
+				0
+			]
+		},
+		{
+			"type": "idle",
+			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+			"bone": "socket_rotating_thruster_right_1",
+			"offset": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"type": "idle",
+			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+			"bone": "socket_rotating_thruster_right_2",
+			"offset": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"type": "idle",
+			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+			"bone": "socket_rotating_thruster_right_3",
+			"offset": [
+				0,
+				0,
 				0
 			]
 		},
 		{
 			"type": "moving_forward",
-			"filename": "/pa/units/assimilation/air/a_swallow/a_swallow_jets.pfx",
-			"bone": "bone_turret",
+			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+			"bone": "socket_main_thruster_left",
 			"offset": [
 				0,
-				1.418,
-				0.5
+				0,
+				0
+			]
+		},
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+			"bone": "socket_main_thruster_right",
+			"offset": [
+				0,
+				0,
+				0
 			]
 		}
 	],
 	"selection_icon": {
 		"diameter": 20.0
 	},
+	"TEMP_texelinfo": 10.4837,
 	"mesh_bounds": [
 		13.5,
 		13.5,

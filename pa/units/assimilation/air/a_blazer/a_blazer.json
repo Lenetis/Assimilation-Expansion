@@ -20,10 +20,10 @@
 		"acceleration": 75,
 		"brake": 20,
 		"move_speed": 75,
-		"turn_speed": 100,
+		"turn_speed": 120,
 		"dodge_radius": 0,
 		"dodge_multiplier": 0.0,
-		"aggressive_distance": 130.0,
+		"aggressive_distance": 140.0,
 		"aggressive_height": 100.0,
 		"wobble_factor": 0.05,
 		"wobble_speed": 0.1,
@@ -63,7 +63,7 @@
 	"tools": [
 		{
 			"spec_id": "/pa/units/assimilation/air/a_blazer/a_blazer_tool_weapon.json",
-			"aim_bone": "bone_root",
+			"aim_bone": "socket_aim",
 			"muzzle_bone": [
 				"muzzleLeft01",
 				"muzzleRight01",
@@ -84,15 +84,16 @@
 			"effect_scale": 0.75
 		}
 	},
-	"fx_offseaaaaaats": [
+	"fx_offsets": [
 		{
 			"type": "moving_forward",
-			"filename": "/pa/units/assimilation/air/a_blazer/a_blazer_jets.pfx",
-			"offset": [
-				0,
-				2.32,
-				1.393
-			]
+            "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+            "bone": "socket_thruster",
+            "offset": [
+                0,
+                0,
+                0
+            ]
 		}
 	],
 	"audio": {

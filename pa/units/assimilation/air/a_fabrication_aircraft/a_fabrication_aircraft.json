@@ -144,6 +144,26 @@
 				0,
 				0
 			]
+		},
+		{
+			"type": "moving_forward",
+            "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+            "bone": "socket_left_thruster",
+            "offset": [
+                0,
+                0,
+                0
+            ]
+		},
+		{
+			"type": "moving_forward",
+            "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+            "bone": "socket_right_thruster",
+            "offset": [
+                0,
+                0,
+                0
+            ]
 		}
 	],
 	"selection_icon": {

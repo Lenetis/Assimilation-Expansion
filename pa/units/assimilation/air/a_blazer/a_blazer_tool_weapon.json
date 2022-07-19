@@ -5,9 +5,9 @@
 	"ammo_demand": 1,
 	"ammo_per_shot": 0.75,
 	
-	"rate_of_fire": 10,
-	"ammo_capacity": 5,
-	"max_range": 90,
+	"rate_of_fire": 15,
+	"ammo_capacity": 4,
+	"max_range": 95,
 	
 	"yaw_rate": 3600,
 	"yaw_range": 20,
