@@ -78,7 +78,8 @@
         {
             "spec_id": "/pa/units/assimilation/land/a_sweeper/a_sweeper_tool_weapon.json",
             "aim_bone": "bone_root",
-            "muzzle_bone": "muzzle"
+            "fire_event": "fired0",
+            "muzzle_bone": "socket_muzzle"
         },
         {
             "spec_id": "/pa/units/assimilation/land/a_sweeper/a_sweeper_build_arm.json",
@@ -91,7 +92,7 @@
         },
         "died": {
             "audio_cue": "/SE/Death/Veh",
-            "effect_scale": 1.4
+            "effect_scale": 1.6
         }
     },
     "audio": {

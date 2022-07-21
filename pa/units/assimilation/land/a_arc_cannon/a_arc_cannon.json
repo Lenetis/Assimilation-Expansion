@@ -61,13 +61,13 @@
         "animations": {
             "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
         },
-        "animtree": "/pa/anim/anim_trees/a_arc_cannon_anim_tree.json"
+        "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
     },
     "tools": [
         {
             "spec_id": "/pa/units/assimilation/land/a_arc_cannon/a_arc_cannon_tool_weapon.json",
-            "aim_bone": "bone_root",
-            "muzzle_bone": "muzzle"
+            "aim_bone": "bone_turret",
+            "muzzle_bone": "socket_muzzle"
         }
     ],
     "events": {

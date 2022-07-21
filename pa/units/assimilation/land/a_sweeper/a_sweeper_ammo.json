@@ -8,5 +8,6 @@
         "observable": {
             "ignore_radar": true
         }
-    }
+    },
+    "sim_fire_effect": "/pa/units/assimilation/land/a_sweeper/a_sweeper_effect_ent.json"
 }
