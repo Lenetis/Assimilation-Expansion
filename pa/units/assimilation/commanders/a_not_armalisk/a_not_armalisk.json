@@ -17,7 +17,7 @@
 		}
 	},
 	"model": {
-		"filename": "/pa/units/commanders/quad_armalisk/quad_armalisk.papa",
+		"filename": "/pa/units/assimilation/commanders/a_not_armalisk/a_not_armalisk.papa",
 		"animations": {
             "walk": "/pa/units/commanders/quad_base/quad_base_anim_walk.papa",
             "idle": "/pa/units/commanders/quad_base/quad_base_anim_idle.papa",
