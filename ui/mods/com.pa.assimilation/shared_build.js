@@ -19,19 +19,21 @@ var newBuild = {
 	"/pa/units/assimilation/sea/a_siren/a_siren.json": ["a_sea", 0, { row: 2, column: 5 }],
 	"/pa/units/assimilation/sea/a_guppy/a_guppy.json": ["a_sea", 0, { row: 2, column: 6 }],
 	
-	"/pa/units/assimilation/air/a_air_factory/a_air_factory.json": ["a_factory", 0, { row: 2, column: 2 }],
-	"/pa/units/assimilation/sea/a_naval_factory/a_naval_factory.json": ["a_factory", 0, { row: 2, column: 1 }],
-	
-	"/pa/units/assimilation/air/a_air_factory_hyper/a_air_factory_hyper.json": ["a_factory", 0, { row: 1, column: 2 }],
-	"/pa/units/assimilation/sea/a_naval_factory_hyper/a_naval_factory_hyper.json": ["a_factory", 0, { row: 1, column: 1 }],
-
 	"/pa/units/assimilation/land/a_fabrication_vehicle/a_fabrication_vehicle.json": ["a_vehicle", 0, { row: 2, column: 0 }],
 	"/pa/units/assimilation/land/a_shaker_cannon/a_shaker_cannon.json": ["a_vehicle", 0, { row: 2, column: 1 }],
 	"/pa/units/assimilation/land/a_arc_cannon/a_arc_cannon.json": ["a_vehicle", 0, { row: 2, column: 2 }],
 	"/pa/units/assimilation/land/a_sweeper/a_sweeper.json": ["a_vehicle", 0, { row: 2, column: 3 }],
 	"/pa/units/assimilation/land/a_hail/a_hail.json": ["a_vehicle", 0, { row: 2, column: 4 }],
 	
+	"/pa/units/assimilation/land/a_aegis/a_aegis.json": ["a_bot", 0, { row: 2, column: 4 }],
+	
+	"/pa/units/assimilation/air/a_air_factory/a_air_factory.json": ["a_factory", 0, { row: 2, column: 2 }],
+	"/pa/units/assimilation/sea/a_naval_factory/a_naval_factory.json": ["a_factory", 0, { row: 2, column: 1 }],
 	"/pa/units/assimilation/land/a_vehicle_factory/a_vehicle_factory.json": ["a_factory", 0, { row: 2, column: 3 }],
+	"/pa/units/assimilation/land/a_bot_factory/a_bot_factory.json": ["a_factory", 0, { row: 2, column: 4 }],
+	
+	"/pa/units/assimilation/air/a_air_factory_hyper/a_air_factory_hyper.json": ["a_factory", 0, { row: 1, column: 2 }],
+	"/pa/units/assimilation/sea/a_naval_factory_hyper/a_naval_factory_hyper.json": ["a_factory", 0, { row: 1, column: 1 }],
 	"/pa/units/assimilation/land/a_vehicle_factory_hyper/a_vehicle_factory_hyper.json": ["a_factory", 0, { row: 1, column: 3 }],
 	
 	"/pa/units/assimilation/land/a_energy_plant/a_energy_plant.json": ["a_utility", 0, { row: 1, column: 3 }],

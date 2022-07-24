@@ -41,7 +41,11 @@
 		"/pa/units/assimilation/land/a_fabrication_vehicle/a_fabrication_vehicle.json",
 
 		"/pa/units/assimilation/land/a_vehicle_factory/a_vehicle_factory.json",
-		"/pa/units/assimilation/land/a_vehicle_factory_hyper/a_vehicle_factory_hyper.json"
+		"/pa/units/assimilation/land/a_vehicle_factory_hyper/a_vehicle_factory_hyper.json",
+
+		"/pa/units/assimilation/land/a_bot_factory/a_bot_factory.json",
+		"/pa/units/assimilation/land/a_aegis/a_aegis.json",
+		"/pa/units/assimilation/land/a_aegis/deployed/a_aegis_deployed.json"
 		
 	]
 	
