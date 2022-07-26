@@ -45,8 +45,8 @@
 	"model": [
 		{
 			"filename": "/pa/units/assimilation/land/a_energy_plant/a_energy_plant.papa",
-			"aaaaaaanimations": {
-				"idle": "/pa/units/land/energy_plant/energy_plant_anim_work.papa"
+			"animations": {
+				"idle": "/pa/units/assimilation/land/a_energy_plant/a_energy_plant_anim_work.papa"
 			},
 			"animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
 			"skirt_decal": "/pa/effects/specs/skirt_energy.json"
@@ -84,6 +84,16 @@
 				0,
 				5
 			]
+		},
+		{
+			"type": "idle",
+            "filename": "/pa/units/assimilation/land/a_energy_plant/a_energy_plant_idle.pfx",
+            "bone": "socket_ring_center",
+            "offset": [
+                0,
+                0,
+                0
+            ]
 		}
 	],
 	"headlights": [
